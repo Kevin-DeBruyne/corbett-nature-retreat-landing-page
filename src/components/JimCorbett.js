@@ -8,7 +8,7 @@ const attractions = [
     title: "Jeep Safari",
     description: "Experience the thrill of wildlife safari in Jim Corbett National Park. Spot tigers, elephants, and diverse wildlife in their natural habitat.",
     icon: "fas fa-car",
-    image: "/images/jeep-safari.jpg",
+    image: "images/jeep-safari.jpg",
     category: "Wildlife",
     distance: "20 km"
   },
@@ -17,7 +17,7 @@ const attractions = [
     title: "Camel Ride",
     description: "Enjoy a unique camel ride experience through the scenic landscapes around Corbett. Perfect for family fun and photography.",
     icon: "fas fa-horse",
-    image: "/images/camel-ride.jpg",
+    image: "images/camel-ride.jpg",
     category: "Adventure",
     distance: "5 km"
   },
@@ -26,7 +26,7 @@ const attractions = [
     title: "Waterfall Visit",
     description: "Discover beautiful waterfalls in the nearby hills. A perfect spot for nature photography and peaceful moments.",
     icon: "fas fa-water",
-    image: "/images/water-fall.jpg",
+    image: "images/water-fall.jpg",
     category: "Nature",
     distance: "15 km"
   },
@@ -35,7 +35,7 @@ const attractions = [
     title: "Hanumandham",
     description: "Visit the sacred Hanuman temple nestled in the hills. Experience spiritual peace and breathtaking views.",
     icon: "fas fa-om",
-    image: "/images/hanumandham.jpg",
+    image: "images/hanumandham.jpg",
     category: "Spiritual",
     distance: "25 km"
   },
@@ -44,7 +44,7 @@ const attractions = [
     title: "Garjiya Temple",
     description: "Explore the ancient Garjiya Devi temple on the banks of Kosi River. A significant religious and cultural site.",
     icon: "fas fa-temple-buddhist",
-    image: "/images/garjiya-temple.jpg",
+    image: "images/garjiya-temple.jpg",
     category: "Spiritual",
     distance: "18 km"
   },
@@ -53,7 +53,7 @@ const attractions = [
     title: "Masai Mara",
     description: "Experience the African safari feel at Masai Mara themed resort. Enjoy luxury accommodation and wildlife viewing.",
     icon: "fas fa-safari",
-    image: "/images/masai-mara.jpg",
+    image: "images/masai-mara.jpg",
     category: "Luxury",
     distance: "30 km"
   }
@@ -215,16 +215,16 @@ const JimCorbett = () => {
           <Col lg={6} className="mb-5">
             <div className="park-image">
               <img 
-                src="/images/IMG-20230210-WA0021.jpg" 
+                src="images/IMG-20230210-WA0021.jpg" 
                 alt="Jim Corbett National Park" 
                 className="park-img"
-                onClick={() => openLightbox("/images/IMG-20230210-WA0021.jpg", "Jim Corbett National Park")}
+                onClick={() => openLightbox("images/IMG-20230210-WA0021.jpg", "Jim Corbett National Park")}
                 style={{ cursor: 'pointer' }}
               />
               <div className="park-overlay">
                 <button 
                   className="view-full-btn"
-                  onClick={() => openLightbox("/images/IMG-20230210-WA0021.jpg", "Jim Corbett National Park")}
+                  onClick={() => openLightbox("images/IMG-20230210-WA0021.jpg", "Jim Corbett National Park")}
                 >
                   <i className="fas fa-expand"></i> View Full
                 </button>

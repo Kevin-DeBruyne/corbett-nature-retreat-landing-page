@@ -42,8 +42,8 @@ const Accommodation = () => (
           <Card className="tent-card">
             <Card.Img 
               variant="top" 
-              src="/images/IMG-20230210-WA0021.jpg" 
-              alt="Premium Tent"
+              src="images/IMG-20230210-WA0021.jpg" 
+              alt="Luxury Safari Tent"
               className="tent-image"
             />
             <Card.Body>
@@ -86,7 +86,7 @@ const Accommodation = () => (
               <Col md={6} className="mb-3">
                 <div className="gallery-item">
                   <img 
-                    src="/images/IMG-20231109-WA0015.jpg" 
+                    src="images/IMG-20231109-WA0015.jpg" 
                     alt="Tent Interior" 
                     className="gallery-image"
                   />
@@ -98,7 +98,7 @@ const Accommodation = () => (
               <Col md={6} className="mb-3">
                 <div className="gallery-item">
                   <img 
-                    src="/images/PXL_20231111_135243730.jpg" 
+                    src="images/PXL_20231111_135243730.jpg" 
                     alt="Tent Exterior" 
                     className="gallery-image"
                   />
@@ -110,7 +110,7 @@ const Accommodation = () => (
               <Col md={6} className="mb-3">
                 <div className="gallery-item">
                   <img 
-                    src="/images/night.jpg" 
+                    src="images/night.jpg" 
                     alt="Night View" 
                     className="gallery-image"
                   />
@@ -122,7 +122,7 @@ const Accommodation = () => (
               <Col md={6} className="mb-3">
                 <div className="gallery-item">
                   <img 
-                    src="/images/night2.jpg" 
+                    src="images/night2.jpg" 
                     alt="Evening Ambiance" 
                     className="gallery-image"
                   />
@@ -199,7 +199,7 @@ const Accommodation = () => (
         <Col lg={6} className="mb-5">
           <div className="experience-image">
             <img 
-              src="/images/scape.jpg" 
+              src="images/scape.jpg" 
               alt="Wilderness Experience" 
               className="experience-img"
             />

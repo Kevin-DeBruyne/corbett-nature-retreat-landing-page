@@ -8,7 +8,7 @@ const activities = [
     title: "Board Games",
     description: "Enjoy classic board games in the comfort of your tent or common area. Perfect for family bonding and friendly competition.",
     icon: "fas fa-chess",
-    image: "/images/IMG-20230210-WA0010.jpg",
+    image: "images/IMG-20230210-WA0010.jpg",
     category: "Indoor"
   },
   {
@@ -16,7 +16,7 @@ const activities = [
     title: "Nature & River Walk",
     description: "Guided walks along the pristine river and through the beautiful nature trails surrounding our retreat.",
     icon: "fas fa-water",
-    image: "/images/river.jpg",
+    image: "images/river.jpg",
     category: "Outdoor"
   },
   {
@@ -24,7 +24,7 @@ const activities = [
     title: "Hiking",
     description: "Explore the nearby hills with guided hiking trails offering breathtaking views of the Corbett landscape.",
     icon: "fas fa-mountain",
-    image: "/images/hiking.jpg",
+    image: "images/hiking.jpg",
     category: "Adventure"
   },
   {
@@ -32,7 +32,7 @@ const activities = [
     title: "Stargazing",
     description: "Experience the magical night sky away from city lights. Perfect for astronomy enthusiasts and romantic evenings.",
     icon: "fas fa-star",
-    image: "/images/stargazing.jpg",
+    image: "images/stargazing.jpg",
     category: "Evening"
   },
   {
@@ -40,7 +40,7 @@ const activities = [
     title: "Bird Watching",
     description: "Observe diverse bird species in their natural habitat. Our location offers excellent birding opportunities.",
     icon: "fas fa-dove",
-    image: "/images/nature.jpg",
+    image: "images/nature.jpg",
     category: "Wildlife"
   },
   {
@@ -48,7 +48,7 @@ const activities = [
     title: "Evening Bonfire",
     description: "Gather around the bonfire for storytelling, music, and warm conversations under the starlit sky.",
     icon: "fas fa-fire",
-    image: "/images/bonfire.jpg",
+    image: "images/bonfire.jpg",
     category: "Evening"
   }
 ];
@@ -207,16 +207,16 @@ const Activities = () => {
           <Col lg={6} className="mb-5">
             <div className="featured-image">
               <img 
-                src="/images/river2.jpg" 
+                src="images/river2.jpg" 
                 alt="River Walk Experience" 
                 className="featured-img"
-                onClick={() => openLightbox("/images/river2.jpg", "River Walk Experience")}
+                onClick={() => openLightbox("images/river2.jpg", "River Walk Experience")}
                 style={{ cursor: 'pointer' }}
               />
               <div className="featured-overlay">
                 <button 
                   className="view-full-btn"
-                  onClick={() => openLightbox("/images/river2.jpg", "River Walk Experience")}
+                  onClick={() => openLightbox("images/river2.jpg", "River Walk Experience")}
                 >
                   <i className="fas fa-expand"></i> View Full
                 </button>
