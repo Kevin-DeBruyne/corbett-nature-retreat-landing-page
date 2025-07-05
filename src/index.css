@@ -1,13 +1,21 @@
+/* Global styles */
+html {
+  scroll-behavior: smooth; /* fallback if JS library fails */
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  color: #333;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.carousel-wrapper {
+  margin-top: -80px; /* Adjust to overlap with navbar */
+}
+.section {
+  padding: 0 16px; /* Remove top padding for carousel section */
+  min-height: 100vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
