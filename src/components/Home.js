@@ -15,7 +15,7 @@ const Home = () => (
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="images/IMG-20230210-WA0021.jpg"
+          src={`${process.env.PUBLIC_URL}/images/IMG-20230210-WA0021.jpg`}
           alt="Image 4"
         />
         <Carousel.Caption>
@@ -26,7 +26,7 @@ const Home = () => (
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="images/IMG-20231109-WA0015.jpg"
+          src={`${process.env.PUBLIC_URL}/images/IMG-20231109-WA0015.jpg`}
           alt="Image 5"
         />
         <Carousel.Caption>
@@ -37,7 +37,7 @@ const Home = () => (
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="images/IMG_20221025_172212.jpg"
+          src={`${process.env.PUBLIC_URL}/images/IMG_20221025_172212.jpg`}
           alt="Image 6"
         />
         <Carousel.Caption>
@@ -48,7 +48,7 @@ const Home = () => (
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="images/PXL_20230625_020240698.jpg"
+          src={`${process.env.PUBLIC_URL}/images/PXL_20230625_020240698.jpg`}
           alt="Image 7"
         />
         <Carousel.Caption>
@@ -59,7 +59,7 @@ const Home = () => (
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="images/PXL_20231111_135243730.jpg"
+          src={`${process.env.PUBLIC_URL}/images/PXL_20231111_135243730.jpg`}
           alt="Image 8"
         />
         <Carousel.Caption>
@@ -71,7 +71,7 @@ const Home = () => (
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="images/night.jpg"
+          src={`${process.env.PUBLIC_URL}/images/night.jpg`}
           alt="Image 10"
         />
         <Carousel.Caption>
@@ -82,7 +82,7 @@ const Home = () => (
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="images/night2.jpg"
+          src={`${process.env.PUBLIC_URL}/images/night2.jpg`}
           alt="Image 11"
         />
         <Carousel.Caption>
@@ -93,7 +93,7 @@ const Home = () => (
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="images/scape.jpg"
+          src={`${process.env.PUBLIC_URL}/images/scape.jpg`}
           alt="Image 12"
         />
         <Carousel.Caption>

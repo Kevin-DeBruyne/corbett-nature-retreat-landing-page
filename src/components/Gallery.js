@@ -3,15 +3,15 @@ import { Element } from "react-scroll";
 import { Container, Row, Col } from "react-bootstrap";
 
 const images = [
-  "images/IMG_20221025_172212.jpg",
-  "images/IMG-20230210-WA0021.jpg",
-  "images/IMG-20230210-WA0010.jpg",
-  "images/PXL_20230625_020240698.jpg",
-  "images/IMG-20231109-WA0015.jpg",
-  "images/PXL_20231111_135243730.jpg",
-  "images/scape.jpg",
-  "images/night2.jpg",
-  "images/night.jpg"
+  `${process.env.PUBLIC_URL}/images/IMG_20221025_172212.jpg`,
+  `${process.env.PUBLIC_URL}/images/IMG-20230210-WA0021.jpg`,
+  `${process.env.PUBLIC_URL}/images/IMG-20230210-WA0010.jpg`,
+  `${process.env.PUBLIC_URL}/images/PXL_20230625_020240698.jpg`,
+  `${process.env.PUBLIC_URL}/images/IMG-20231109-WA0015.jpg`,
+  `${process.env.PUBLIC_URL}/images/PXL_20231111_135243730.jpg`,
+  `${process.env.PUBLIC_URL}/images/scape.jpg`,
+  `${process.env.PUBLIC_URL}/images/night2.jpg`,
+  `${process.env.PUBLIC_URL}/images/night.jpg`
 ];
 
 const Gallery = () => {
