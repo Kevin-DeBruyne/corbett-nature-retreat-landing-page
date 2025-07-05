@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/corbett-nature-retreat-landing-page/static/css/main.aca08aa4.css",
+    "main.js": "/corbett-nature-retreat-landing-page/static/js/main.13b7e69d.js",
+    "index.html": "/corbett-nature-retreat-landing-page/index.html",
+    "main.aca08aa4.css.map": "/corbett-nature-retreat-landing-page/static/css/main.aca08aa4.css.map",
+    "main.13b7e69d.js.map": "/corbett-nature-retreat-landing-page/static/js/main.13b7e69d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aca08aa4.css",
+    "static/js/main.13b7e69d.js"
+  ]
+}
