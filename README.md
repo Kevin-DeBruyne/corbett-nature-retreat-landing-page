@@ -1,70 +1,234 @@
-# Getting Started with Create React App
+# 🌿 Corbett Nature Retreat Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive landing page for Corbett Nature Retreat - a family-run camp near Jim Corbett National Park. Built with React and featuring beautiful animations, interactive elements, and a professional design.
 
-## Available Scripts
+## 🚀 Live Demo
 
-In the project directory, you can run:
+**Visit the live website:** [https://kevin-debruyne.github.io/corbett-nature-retreat-landing-page/](https://kevin-debruyne.github.io/corbett-nature-retreat-landing-page/)
 
-### `npm start`
+## 📸 Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Home Section:** Beautiful carousel with nature images
+- **About Us:** Comprehensive information about the retreat
+- **Accommodation:** Premium tent details and amenities
+- **Gallery:** Interactive image gallery with lightbox
+- **Activities:** Adventure and relaxation activities
+- **Nearby Attractions:** Jim Corbett and surrounding attractions
+- **Contact:** Contact form and location information
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+### 🎨 **Design & UX**
+- **Responsive Design:** Perfect on desktop, tablet, and mobile
+- **Smooth Animations:** Professional transitions and hover effects
+- **Translucent Navbar:** Overlays carousel with scroll-based visibility
+- **Modern UI:** Clean, professional design with gradient backgrounds
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🏠 **Sections**
+- **Hero Carousel:** Full-width image carousel with captions
+- **About Us:** Story, stats, features, family values, and location
+- **Accommodation:** Premium tent details with image gallery
+- **Gallery:** News ticker-style gallery with full-screen lightbox
+- **Activities:** Interactive cards for various activities
+- **Jim Corbett:** Nearby attractions and safari information
+- **Contact:** Contact form with validation and Google Maps
 
-### `npm run build`
+### 🖼️ **Interactive Elements**
+- **Image Lightbox:** Full-screen image viewing with navigation
+- **Contact Form:** Form validation with success/error messages
+- **Google Maps:** Embedded location map
+- **Smooth Scrolling:** Navigation between sections
+- **Back-to-Top:** Floating button with scroll detection
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 📱 **Mobile Optimized**
+- **Touch-Friendly:** Easy navigation on mobile devices
+- **Responsive Images:** Optimized for all screen sizes
+- **Mobile Menu:** Collapsible navigation for small screens
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **React 19.1.0** - Frontend framework
+- **React Bootstrap 2.10.10** - UI components
+- **React Scroll 1.9.3** - Smooth scrolling
+- **Bootstrap 5.3.7** - CSS framework
+- **Font Awesome** - Icons
+- **GitHub Pages** - Hosting
 
-### `npm run eject`
+## 📁 Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+src/
+├── components/
+│   ├── Home.js          # Hero carousel section
+│   ├── About.js         # About us section
+│   ├── Accommodation.js # Tent accommodation details
+│   ├── Gallery.js       # Image gallery with lightbox
+│   ├── Activities.js    # Activities and experiences
+│   ├── JimCorbett.js    # Nearby attractions
+│   ├── Contact.js       # Contact form and info
+│   ├── Footer.js        # Footer with links
+│   └── Navbar.js        # Navigation bar
+├── App.js               # Main app component
+├── App.css              # Global styles
+└── index.js             # App entry point
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
+- Node.js (version 14 or higher)
+- npm or yarn
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Installation
 
-## Learn More
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Kevin-DeBruyne/corbett-nature-retreat-landing-page.git
+   cd corbett-nature-retreat-landing-page
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. **Start the development server**
+   ```bash
+   npm start
+   ```
 
-### Code Splitting
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Building for Production
 
-### Analyzing the Bundle Size
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Deploying to GitHub Pages
 
-### Making a Progressive Web App
+```bash
+npm run deploy
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🎯 Key Features
 
-### Advanced Configuration
+### **Home Section**
+- Full-width carousel with nature images
+- Smooth transitions and auto-play
+- Responsive design for all devices
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### **About Us**
+- Hero section with gradient background
+- Company story and statistics
+- Feature highlights and family values
+- Location information
 
-### Deployment
+### **Accommodation**
+- Premium tent details
+- Image gallery with hover effects
+- Amenities and features list
+- Wilderness experience description
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### **Gallery**
+- News ticker-style continuous scrolling
+- Full-screen lightbox with navigation
+- Keyboard controls (arrow keys, escape)
+- Touch-friendly on mobile
 
-### `npm run build` fails to minify
+### **Activities**
+- Interactive activity cards
+- Category highlights
+- Featured activity section
+- Daily schedule information
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### **Jim Corbett & Nearby Attractions**
+- Attraction cards with images
+- Distance information
+- Category organization
+- Safari booking information
+
+### **Contact**
+- Contact form with validation
+- Google Maps integration
+- Contact information display
+- Social media links
+
+### **Footer**
+- Company information
+- Quick links and services
+- Contact details
+- Social media links
+- Back-to-top functionality
+
+## 🎨 Design Features
+
+- **Color Scheme:** Purple gradient theme (#667eea to #764ba2)
+- **Typography:** Modern, readable fonts
+- **Animations:** Smooth hover effects and transitions
+- **Icons:** Font Awesome icons throughout
+- **Layout:** Bootstrap grid system for responsiveness
+
+## 📱 Responsive Design
+
+- **Desktop:** Full layout with all features
+- **Tablet:** Optimized layout for medium screens
+- **Mobile:** Touch-friendly design with collapsible menu
+
+## 🔧 Customization
+
+### **Adding New Images**
+1. Place images in `public/images/` directory
+2. Update image paths using `${process.env.PUBLIC_URL}/images/filename.jpg`
+3. Rebuild and deploy
+
+### **Modifying Content**
+- Edit component files in `src/components/`
+- Update text content directly in JSX
+- Modify styles in `src/App.css`
+
+### **Changing Colors**
+- Update CSS variables in `src/App.css`
+- Primary gradient: `linear-gradient(135deg, #667eea 0%, #764ba2 100%)`
+
+## 🚀 Deployment
+
+This project is configured for GitHub Pages deployment:
+
+1. **Repository Settings:** Set to deploy from `gh-pages` branch
+2. **Homepage:** Configured in `package.json`
+3. **Build Process:** Automatic build and deployment with `npm run deploy`
+
+## 📞 Contact Information
+
+**Corbett Nature Retreat**
+- **Address:** Village - Kyari, Ramnagar, (Nainital), Uttarakhand - 244715
+- **Phone:** +91 84495 06167
+- **Email:** enquiry@corbettnatureretreat.com
+- **Website:** [https://kevin-debruyne.github.io/corbett-nature-retreat-landing-page/](https://kevin-debruyne.github.io/corbett-nature-retreat-landing-page/)
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- **React Bootstrap** for UI components
+- **Font Awesome** for icons
+- **GitHub Pages** for hosting
+- **Jim Corbett National Park** for inspiration
+
+---
+
+**Built with ❤️ for Corbett Nature Retreat**
+
+*Experience the perfect blend of adventure and tranquility in the heart of Jim Corbett National Park.*
